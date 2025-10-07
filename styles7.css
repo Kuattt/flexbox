@@ -68,17 +68,29 @@
     align-items: flex-start;
 }
 
-#u {
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+img {
+    width: 200px;
+    height: 200px;
 }
 
-#two {
-    display: inline-flex;
-    flex-grow: 1;
-    flex-basis: 20%;
-    flex-shrink: 40%;
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+}
+
+.card1 {
+    flex: 0 0 25%;
+}
+
+.card2 {
+    flex: 1 2 75%;
+}
+
+.card3 {
+    flex: 2 1 50%;
+}
+
+.card4 {
+    flex: 3 0 60%;
 }
